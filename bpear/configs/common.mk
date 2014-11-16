@@ -8,3 +8,7 @@ PRODUCT_COPY_FILES += \
 # Use prebuilt Desk Clock
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/app/DeskClockGoogle/DeskClockGoogle.apk:system/app/DeskClockGoogle/DeskClockGoogle.apk
+
+# Use prebuilt Google Calendar
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk:system/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk
